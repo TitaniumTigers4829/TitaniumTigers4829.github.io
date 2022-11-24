@@ -1,0 +1,16 @@
+:root {
+  --mainColor: #0f0f0f;
+  --secondaryColor: #202020;
+  --tertiaryColor: #b8b8b8;
+  --quaternaryColor: dimgrey;
+  --themeColor: #FB9106;
+  --secondaryThemeColor: #EEC75B;
+  --blendedColor: #F1AE3D;
+  --filterColor: -50deg;
+
+  --mainTextColor: white;
+
+  --mainFont: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  --secondaryFont: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+
