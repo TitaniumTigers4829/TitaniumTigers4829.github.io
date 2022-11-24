@@ -1,0 +1,54 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: var(--secondaryColor);
+}
+
+#header-inner {
+  padding: 1.8% 20% 1.5%;
+}
+
+.header-item {
+  text-align: center;
+  font-size: 160%;
+  color: var(--mainTextColor);
+  text-decoration: none;
+  display: inline-block;
+  width: 16.1%;
+  padding: 0;
+  margin: 0;
+}
+
+.header-item:hover {
+  color: var(--themeColor);
+}
+
+.header-underline {
+  margin: .5% 0;
+  height: .2vw;
+  width: 16%;
+  background: var(--themeColor);
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+.two:hover ~ hr {
+  margin-left: 16.1%;
+}
+
+.three:hover ~ hr {
+  margin-left: 33.2%;
+}
+
+.four:hover ~ hr {
+  margin-left: 49.7%;
+}
+
+.five:hover ~ hr {
+  margin-left: 66.3%;
+}
+
+.six:hover ~ hr {
+  margin-left: 83.1%;
+}

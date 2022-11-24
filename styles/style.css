@@ -1,6 +1,6 @@
 :root {
   --mainColor: #0f0f0f;
-  --secondaryColor: #202020;
+  --secondaryColor: #151515;
   --tertiaryColor: #b8b8b8;
   --quaternaryColor: dimgrey;
   --themeColor: #FB9106;
@@ -14,3 +14,16 @@
   --secondaryFont: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
 }
 
+
+* {
+  box-sizing: border-box;
+  transition: .5s;
+  outline: none;
+}
+
+html, body {
+  padding: 0;
+  margin: auto;
+  font-family: var(--mainFont);
+  background-color: var(--mainColor);
+}
