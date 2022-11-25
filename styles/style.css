@@ -27,3 +27,32 @@ html, body {
   font-family: var(--mainFont);
   background-color: var(--mainColor);
 }
+
+h1 {
+  color: var(--mainTextColor);
+  font-size: 6.5vw;
+  margin: 0;
+}
+
+p {
+  color: var(--mainTextColor);
+  font-size: 1.8vw;
+  font-weight: 300;
+}
+
+#greeting-section {
+  height: 100vh;
+  width: 100%;
+}
+
+#greeting-container {
+  padding: 10%;
+  text-align: center;
+}
+
+#greeting-container img {
+  width: 37%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
