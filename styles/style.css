@@ -5,6 +5,7 @@
   --quaternaryColor: dimgrey;
   --themeColor: #FB9106;
   --secondaryThemeColor: #EEC75B;
+  --tertiaryThemeColor: #FED8AA;
   --blendedColor: #F1AE3D;
   --filterColor: -50deg;
 
@@ -34,19 +35,43 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  color: var(--tertiaryThemeColor);
+  font-size: 4.5vw;
+  margin-bottom: 2%;
+}
+
 p {
   color: var(--mainTextColor);
   font-size: 1.8vw;
   font-weight: 300;
 }
 
+span {
+  color: var(--tertiaryThemeColor);
+  font-size: 1.8vw;
+  font-weight: 500;
+}
+
+li {
+  color: var(--mainTextColor);
+  font-size: 1.8vw;
+  font-weight: 300;
+}
+
+.divider-line {
+  background: var(--themeColor);
+  margin: 3% 8%;
+  height: .3vw;
+  border: 0 ;
+}
+
 #greeting-section {
-  height: 100vh;
   width: 100%;
 }
 
 #greeting-container {
-  padding: 10%;
+  padding: 8% 10% 0;
   text-align: center;
 }
 
@@ -55,4 +80,23 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#robot-section {
+  width: 100%;
+}
+
+#robot-container {
+  padding: 0 10% 5%;
+}
+
+.text-image-div {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 5%;
+}
+
+.text-image-div img {
+  width: 100%;
+  margin-top: 10%;
 }
