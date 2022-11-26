@@ -72,6 +72,20 @@ li {
   border: 0 ;
 }
 
+.button1 {
+  font-size: 2vw;
+  color: var(--mainTextColor);
+  border: 2px solid var(--themeColor);
+  border-radius: 6px;
+  padding: 1.8%;
+  text-decoration: none;
+}
+
+.button1:hover {
+  background: var(--themeColor);
+  color: var(--mainColor);
+}
+
 #greeting-section {
   width: 100%;
 }
@@ -129,12 +143,25 @@ li {
   margin-top: 0;
 }
 
+#donate-section {
+  width: 100%;
+}
+
+#donate-container {
+  padding: 0 10% 4%;
+}
+
+#donate-container p {
+  padding-bottom: 3%;
+}
+
 #video-section {
   width: 100%;
 }
 
 #video-container {
   padding: 0 10% 4%;
+  text-align: center;
 }
 
 #videos-div {
@@ -163,10 +190,14 @@ li {
 }
 
 .page-container .text-image-div img {
-  margin-top: 4%;
+  margin-top: 7%;
 }
 
 .page-container .divider-line {
   margin-left: -2%;
   margin-right: -2%;
+}
+
+.page-container h2 {
+  margin: 0 0 2%;
 }
