@@ -69,7 +69,6 @@ header {
 }
 
 .header-underline {
-  margin: .5% 0;
   height: .2vw;
   width: 16%;
   background: var(--themeColor);
@@ -77,22 +76,34 @@ header {
   transition: .3s ease-in-out;
 }
 
+#home-underline {
+  margin: .5% 0;
+}
+
+#about-underline {
+  margin: .5% 16.1%;
+}
+
+.one:hover ~ hr {
+  margin-left: 0!important;
+}
+
 .two:hover ~ hr {
-  margin-left: 16.1%;
+  margin-left: 16.1%!important;
 }
 
 .three:hover ~ hr {
-  margin-left: 33.2%;
+  margin-left: 33.2%!important;;
 }
 
 .four:hover ~ hr {
-  margin-left: 49.7%;
+  margin-left: 49.7%!important;;
 }
 
 .five:hover ~ hr {
-  margin-left: 66.3%;
+  margin-left: 66.3%!important;;
 }
 
 .six:hover ~ hr {
-  margin-left: 83.1%;
+  margin-left: 83.1%!important;;
 }

@@ -41,6 +41,12 @@ h2 {
   margin-bottom: 2%;
 }
 
+h3 {
+  color: var(--mainTextColor);
+  font-size: 3vw;
+  margin: 0;
+}
+
 p {
   color: var(--mainTextColor);
   font-size: 1.8vw;
@@ -136,4 +142,31 @@ li {
   flex-direction: row;
   justify-content: space-between;
   gap: 1%;
+}
+
+.page-section {
+  width: 100%;
+}
+
+.page-container {
+  padding: 9% 10% 5%;
+}
+
+.page-container h1 {
+  text-align: center;
+}
+
+.page-container .text-image-div {
+  display: grid;
+  grid-template-columns: 1fr .8fr;
+  gap: 5%;
+}
+
+.page-container .text-image-div img {
+  margin-top: 4%;
+}
+
+.page-container .divider-line {
+  margin-left: -2%;
+  margin-right: -2%;
 }
