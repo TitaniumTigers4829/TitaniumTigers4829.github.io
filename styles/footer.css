@@ -1,0 +1,7 @@
+footer {
+  background: var(--secondaryColor);
+}
+
+.footer-container {
+  padding: 5% 10%;
+}

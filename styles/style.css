@@ -1,6 +1,6 @@
 :root {
   --mainColor: #0f0f0f;
-  --secondaryColor: #171717;
+  --secondaryColor: #181818;
   --tertiaryColor: #b8b8b8;
   --quaternaryColor: dimgrey;
   --themeColor: #FB9106;
@@ -128,8 +128,7 @@ li {
 }
 
 #video-container {
-  padding: 0 10% 2%;
-  height: 100vh;
+  padding: 0 10% 4%;
 }
 
 #videos-div {
