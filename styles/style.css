@@ -1,6 +1,6 @@
 :root {
   --mainColor: #0f0f0f;
-  --secondaryColor: #151515;
+  --secondaryColor: #171717;
   --tertiaryColor: #b8b8b8;
   --quaternaryColor: dimgrey;
   --themeColor: #FB9106;
@@ -87,10 +87,10 @@ li {
 }
 
 #robot-container {
-  padding: 0 10% 5%;
+  padding: 0 10% 2%;
 }
 
-.text-image-div {
+#robot-container .text-image-div {
   display: grid;
   grid-template-columns: 2.5fr 1fr;
   gap: 5%;
@@ -99,4 +99,42 @@ li {
 .text-image-div img {
   width: 100%;
   margin-top: 10%;
+}
+
+#team-section {
+  width: 100%;
+}
+
+#team-container {
+  padding: 0 10%;
+}
+
+#team-container h2 {
+  text-align: right;
+}
+
+#team-container .text-image-div {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 7%;
+}
+
+#team-container .text-image-div img, p {
+  margin-top: 0;
+}
+
+#video-section {
+  width: 100%;
+}
+
+#video-container {
+  padding: 0 10% 2%;
+  height: 100vh;
+}
+
+#videos-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1%;
 }
