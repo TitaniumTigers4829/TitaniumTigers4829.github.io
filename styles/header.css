@@ -59,7 +59,7 @@ header {
   color: var(--mainTextColor);
   text-decoration: none;
   display: inline-block;
-  width: 16.1%;
+  width: 19.5%;
   padding: 0;
   margin: 0;
 }
@@ -70,7 +70,7 @@ header {
 
 .header-underline {
   height: .2vw;
-  width: 16%;
+  width: 19.5%;
   background: var(--themeColor);
   border: none;
   transition: .3s ease-in-out;
@@ -81,7 +81,7 @@ header {
 }
 
 #about-underline {
-  margin: .5% 16.1%;
+  margin: .5% 20%;
 }
 
 .one:hover ~ hr {
@@ -89,21 +89,17 @@ header {
 }
 
 .two:hover ~ hr {
-  margin-left: 16.1%!important;
+  margin-left: 20%!important;
 }
 
 .three:hover ~ hr {
-  margin-left: 33.2%!important;;
+  margin-left: 40%!important;;
 }
 
 .four:hover ~ hr {
-  margin-left: 49.7%!important;;
+  margin-left: 60%!important;;
 }
 
 .five:hover ~ hr {
-  margin-left: 66.3%!important;;
-}
-
-.six:hover ~ hr {
-  margin-left: 83.1%!important;;
+  margin-left: 80%!important;;
 }
