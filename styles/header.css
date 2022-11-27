@@ -55,7 +55,7 @@ header {
 
 .header-item {
   text-align: center;
-  font-size: 160%;
+  font-size: 1.6vw;
   color: var(--mainTextColor);
   text-decoration: none;
   display: inline-block;
@@ -90,6 +90,10 @@ header {
 
 #robots-underline {
   margin: .5% 60%;
+}
+
+#competitions-underline {
+  margin: .5% 80%;
 }
 
 .one:hover ~ hr {

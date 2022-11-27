@@ -4,6 +4,7 @@
 
 #photo-container {
   padding: 0 10% 5%;
+  margin-top: -5%;
 }
 
 #photo-container {
@@ -13,10 +14,6 @@
 #photo-container h2 {
   margin-top: 2%;
   font-size: 5vw;
-}
-
-.page-container {
-  padding-bottom: 0;
 }
 
 .photo-row {

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Titanium Tigers</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/photo-gallery.css">
+  <link rel="stylesheet" type="text/css" href="styles/header.css">
+  <link rel="stylesheet" type="text/css" href="styles/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+  <link rel="icon" type="image/webp" href="images/Titanium%20Tigers%20Logo.webp">
+</head>
+<body>
+
+<header>
+  <div id="header-inner">
+    <a class="header-item one" href="index.html">
+      Home
+    </a>
+    <a class="header-item two" href="about.html">
+      About
+    </a>
+    <a class="header-item three" href="sponsors.html">
+      Sponsors
+    </a>
+    <a class="header-item four" href="robots.html">
+      Robots
+    </a>
+    <a class="header-item five" href="#">
+      Competitions
+    </a>
+    <hr id="competitions-underline" class="header-underline"/>
+  </div>
+</header>
+
+<section class="page-section">
+  <div class="page-container">
+    <h1 class="page-title">Competition Updates</h1>
+    <hr class="divider-line"/>
+    <div class="competitions-container">
+      <div class="competitions-text-div">
+        <h3>THOR and Doyenne</h3>
+        <p>2 Events that we hosted.</p>
+        <a onclick="showArticle(2)">See More</a>
+      </div>
+      <div class="competitions-image-div">
+        <img src="images/doyenne-winning.jpg" alt="doyenne" style="width:100%">
+      </div>
+    </div>
+
+    <div class="competitions-container">
+      <div class="competitions-image-div">
+        <img src="images/cachedImage_PNG.webp" alt="worlds" style="width:100%">
+      </div>
+      <div class="competitions-text-div">
+        <h3>2022 World Championship</h3>
+        <p>For the first time in our team's history, we made it to worlds!</p>
+        <a onclick="showArticle(1)">See More</a>
+      </div>
+    </div>
+
+    <div class="competitions-container">
+      <div class="competitions-text-div">
+        <h3>NC State Championship</h3>
+        <p>For the second time ever, we attended states.</p>
+        <a onclick="showArticle(0)">See More</a>
+      </div>
+      <div class="competitions-image-div">
+        <img src="images/4EFB206A-CB05-4FF9-841D-AFB1B67209EB_JPG.webp" alt="first-week"
+             style="width:100%">
+      </div>
+    </div>
+
+    <!-- Mobile Versions -->
+
+    <div class="competitions-container-mobile">
+      <div class="competitions-image-div-mobile">
+        <img src="images/doyenne-winning.jpg" alt="doyenne" style="width:100%">
+      </div>
+      <div class="competitions-text-div">
+        <h3>THOR and Doyenne</h3>
+        <p>2 Events that we hosted.</p>
+        <a onclick="showArticle(2)">See More</a>
+      </div>
+    </div>
+
+    <div class="competitions-container-mobile">
+      <div class="competitions-image-div-mobile">
+        <img src="images/cachedImage_PNG.webp" alt="worlds" style="width:100%">
+      </div>
+      <div class="competitions-text-div">
+        <h3>2022 World Championship</h3>
+        <p>For the first time in our team's history, we made it to worlds!</p>
+        <a onclick="showArticle(1)">See More</a>
+      </div>
+    </div>
+
+    <div class="competitions-container-mobile">
+      <div class="competitions-image-div-mobile">
+        <img src="images/4EFB206A-CB05-4FF9-841D-AFB1B67209EB_JPG.webp" alt="first-week"
+             style="width:100%">
+      </div>
+      <div class="competitions-text-div">
+        <h3>NC State Championship</h3>
+        <p>For the second time ever, we attended states.</p>
+        <a onclick="showArticle(0)">See More</a>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="page-section">
+
+  <div id="2" class="article-container">
+    <p class="competitions-date">10/15/22-10/16/22</p>
+    <h2 class="article-title">Thor and Doyenne</h2>
+    <p>We hosted THOR 3 and Doyenne at our high school. Through both competitions, we went
+      undefeated, not dropping a single match. In THOR 3, both our A and B team won first place, and
+      in Doyenne, we won first place.</p>
+    <img src="images/doyenne-winning.jpg" alt="doyenne" style="width:100%">
+    <p>In addition, we had a very successful 5 ball auto, with a decently successful auto climb.</p>
+    <img src="images/IMG-1015_JPG.webp" alt="thor" style="width:100%">
+    <p>Thank you EastBots and G-Force for being such great alliance teammates.</p>
+    <a class="button1" href="competitions.html">Back to Competitions</a>
+  </div>
+
+  <div id="1" class="article-container">
+    <p>4/21/22</p>
+    <h2 class="article-title">2022 FRC World Championship</h2>
+    <p>We were absolutely delighted and honored to qualify for Worlds at our previous competitions.
+      We competed in Houston in the Roebling division, finishing in 40th. While we didn't end up
+      with a ranking quite as high as we would have liked, we learned so much from the amazing teams
+      there and we cannot wait for what the future holds.
+    </p>
+    <img src="images/IMG_9556_JPG.webp" alt="loopy" style="width:100%">
+    <p>From the teams, to the mentors,
+      volunteers, sponsors, and staff we are truly so appreciative for everyone's help!
+      Congratulations to everyone for an amazing competition season and good luck to everyone at
+      their off-season events!</p>
+    <a class="button1" href="competitions.html">Back to Competitions</a>
+  </div>
+
+  <div id="0" class="article-container">
+    <p>4/10/22</p>
+    <h2 class="article-title">FRC NC State Championship</h2>
+    <p>
+      Another very successful weekend for our team! We went out of day 1 in first, were alliance
+      captains for the second alliance, then finished with our teammates (The EastBots and The
+      HitchHikers) in second. Huge shoutout to our alliance partners for their help and support!
+      After an incredible finish, we gained enough points to be 3rd overall in state ranking, and
+      qualify for Worlds!!
+    </p>
+    <img src="images/IMG_9548_JPG.webp" alt="first" style="width:100%">
+    <p>Our team is absolutely overjoyed for the opportunity, and cannot wait to go to our first-ever
+      Worlds competition next week in Houston! Thank you to FIRST NC for their support in this
+      process and we can't wait to see other teams down there!</p>
+    <a class="button1" href="competitions.html">Back to Competitions</a>
+  </div>
+
+</section>
+
+<footer>
+  <div id="footer-container">
+    <p>Email: <a class="url" href="mailto:titaniumtigers4829@gmail.com" target="_blank">titaniumtigers4829@gmail.com</a>
+    </p>
+    <p>Instagram: <a class="url" href="https://www.instagram.com/titaniumtigers4829/?hl=en"
+                     target="_blank">@titaniumtigers4829</a></p>
+    <p>9217 Seawell School Rd, Chapel Hill, NC 27516</p>
+    <p id="copyright-text">©2022 Titanium Tigers</p>
+  </div>
+</footer>
+
+<script src="scripts/open-articles.js"></script>
+<script type="text/javascript">
+  showCompetitions();
+</script>
+
+</body>
+</html>
