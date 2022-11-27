@@ -2,6 +2,22 @@ footer {
   background: var(--secondaryColor);
 }
 
-.footer-container {
-  padding: 5% 10%;
+#footer-container {
+  padding: 3% 10%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8vw;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#footer-container p{
+  margin: 0;
+  padding: .5% 0;
+}
+
+#copyright-text {
+  font-size: 1.2vw;
+  color: var(--quaternaryColor);
+  padding: 2% 0 0!important;
 }

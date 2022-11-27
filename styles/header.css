@@ -84,6 +84,14 @@ header {
   margin: .5% 20%;
 }
 
+#sponsors-underline {
+  margin: .5% 40%;
+}
+
+#robots-underline {
+  margin: .5% 60%;
+}
+
 .one:hover ~ hr {
   margin-left: 0!important;
 }
