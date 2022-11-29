@@ -43,6 +43,7 @@ header {
   top: 8%;
   right: 1%;
   cursor: pointer;
+  font-family: Arial, serif;
 }
 
 #x-button:hover {
@@ -105,13 +106,133 @@ header {
 }
 
 .three:hover ~ hr {
-  margin-left: 40%!important;;
+  margin-left: 40%!important;
 }
 
 .four:hover ~ hr {
-  margin-left: 60%!important;;
+  margin-left: 60%!important;
 }
 
 .five:hover ~ hr {
-  margin-left: 80%!important;;
+  margin-left: 80%!important;
+}
+
+#main-nav-toggle {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+/* Header looks weird at higher resolutions, this attempts to fix it */
+@media (min-width: 2000px) {
+  #home-underline {
+    margin: .5% 0;
+  }
+
+  #about-underline {
+    margin: .5% 19.5%;
+  }
+
+  #sponsors-underline {
+    margin: .5% 39.5%;
+  }
+
+  #robots-underline {
+    margin: .5% 59.5%;
+  }
+
+  #competitions-underline {
+    margin: .5% 79.5%;
+  }
+
+  .one:hover ~ hr {
+    margin-left: 0!important;
+  }
+
+  .two:hover ~ hr {
+    margin-left: 19.5%!important;
+  }
+
+  .three:hover ~ hr {
+    margin-left: 39.5%!important;
+  }
+
+  .four:hover ~ hr {
+    margin-left: 59.5%!important;
+  }
+
+  .five:hover ~ hr {
+    margin-left: 79.5%!important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header-underline, #header-interest-form, #x-button {
+    display: none;
+    visibility: hidden;
+  }
+
+  #header-inner {
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 6% 20%;
+  }
+
+  .main-nav-button-container {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    gap: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+  }
+
+  .main-nav-button {
+    display: block;
+    background-color: var(--mainTextColor);
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+
+  #main-nav-toggle ~ #header-inner a {
+    display: none;
+  }
+
+  #main-nav-toggle:checked + .main-nav-button-container #top-nav-button {
+    transform: rotate(405deg);
+    position: absolute;
+    top: calc(50% - 2px);
+  }
+
+  #main-nav-toggle:checked + .main-nav-button-container #mid-nav-button {
+    background: rgba(255, 255, 255, 0);
+    height: 0;
+  }
+
+  #main-nav-toggle:checked + .main-nav-button-container #bot-nav-button {
+    transform: rotate(-405deg);
+    position: absolute;
+    top: calc(50% - 2px);
+  }
+
+  #main-nav-toggle:checked ~ #header-inner a {
+    display: block;
+  }
+
+  .header-item {
+    font-size: 6vw;
+    width: 100%;
+  }
+
 }

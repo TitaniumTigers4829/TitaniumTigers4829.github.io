@@ -33,3 +33,19 @@
   width: 100%;
   padding: 2%;
 }
+
+@media (max-width: 820px) {
+  #photo-container h2 {
+    font-size: 9vw;
+  }
+
+  #photo-container h3 {
+    font-size: 7vw;
+  }
+
+  .photo-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+}

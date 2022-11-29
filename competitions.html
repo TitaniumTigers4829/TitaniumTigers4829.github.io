@@ -18,6 +18,13 @@
 <body>
 
 <header>
+  <button id="x-button" onclick="closeSignupPopup()">✖</button>
+  <input id="main-nav-toggle" type="checkbox"/>
+  <label class="main-nav-button-container" for="main-nav-toggle">
+    <div class="main-nav-button" id="top-nav-button"></div>
+    <div class="main-nav-button" id="mid-nav-button"></div>
+    <div class="main-nav-button" id="bot-nav-button"></div>
+  </label>
   <div id="header-inner">
     <a class="header-item one" href="index.html">
       Home
@@ -168,11 +175,18 @@
 
 <footer>
   <div id="footer-container">
-    <p>Email: <a class="url" href="mailto:titaniumtigers4829@gmail.com" target="_blank">titaniumtigers4829@gmail.com</a>
-    </p>
-    <p>Instagram: <a class="url" href="https://www.instagram.com/titaniumtigers4829/?hl=en"
-                     target="_blank">@titaniumtigers4829</a></p>
-    <p>9217 Seawell School Rd, Chapel Hill, NC 27516</p>
+    <div id="footer-normal">
+      <p>Email: <a class="url" href="mailto:titaniumtigers4829@gmail.com" target="_blank">titaniumtigers4829@gmail.com</a>
+      </p>
+      <p>Instagram: <a class="url" href="https://www.instagram.com/titaniumtigers4829/?hl=en"
+                       target="_blank">@titaniumtigers4829</a></p>
+      <p>9217 Seawell School Rd, Chapel Hill, NC 27516</p>
+    </div>
+    <div id="footer-mobile">
+      <p>Email:</p><a class="url" href="mailto:titaniumtigers4829@gmail.com" target="_blank">titaniumtigers4829@gmail.com</a>
+      <p>Instagram:</p><a class="url" href="https://www.instagram.com/titaniumtigers4829/?hl=en" target="_blank">@titaniumtigers4829</a>
+      <p>9217 Seawell School Rd, Chapel Hill, NC 27516</p>
+    </div>
     <p id="copyright-text">©2022 Titanium Tigers</p>
   </div>
 </footer>

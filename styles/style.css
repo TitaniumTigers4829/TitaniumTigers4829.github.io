@@ -317,6 +317,33 @@ li {
 }
 
 @media (max-width: 820px) {
+
+  h1 {
+    font-size: 15vw;
+  }
+
+  h2 {
+    font-size: 9vw;
+    margin: 1vw 0;
+  }
+
+  p {
+    font-size: 5vw;
+    margin: 5vw 0;
+  }
+
+  span {
+    font-size: 5vw;
+  }
+
+  li {
+    font-size: 5vw;
+  }
+
+  .button1 {
+    font-size: 5vw;
+  }
+
   .competitions-container {
     display: none;
   }
@@ -331,6 +358,7 @@ li {
 
   .competitions-text-div h3 {
     padding: 0 0 1.5vw;
+    font-size: 7vw;
   }
 
   .competitions-text-div a {
@@ -340,4 +368,46 @@ li {
   .article-container {
     padding: 20vw 10% 10%;
   }
+
+  #greeting-section, .page-section {
+    margin-top: 60px;
+  }
+
+  .page-container {
+    padding-top: 5vw;
+  }
+
+  #greeting-container img {
+    width: 50%;
+  }
+
+  .text-image-div, .image-text-div   {
+    display: block!important;
+  }
+
+  .text-image-div img {
+    margin: 0;
+  }
+
+  #team-container h2 {
+    text-align: left;
+    margin-bottom: 3vw;
+  }
+
+  #videos-div {
+    display: block!important;
+  }
+
+  .page-container h2 {
+    margin: 0;
+  }
+
+  .page-container .text-image-div img {
+    margin: 0 0 3vw;
+  }
+
+  .article-container p {
+    margin: 5vw 0;
+  }
+
 }
