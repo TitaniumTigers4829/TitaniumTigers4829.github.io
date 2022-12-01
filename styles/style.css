@@ -29,9 +29,10 @@ html, body {
   background-color: var(--mainColor);
 }
 
-h1 {
+h1, h1 span {
   color: var(--mainTextColor);
   font-size: 6.5vw;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -63,6 +64,10 @@ li {
   color: var(--mainTextColor);
   font-size: 1.8vw;
   font-weight: 300;
+}
+
+#team-name {
+  padding-bottom: 2%;
 }
 
 .divider-line {
@@ -318,8 +323,9 @@ li {
 
 @media (max-width: 820px) {
 
-  h1 {
+  h1, h1 span {
     font-size: 15vw;
+    font-weight: 600;
   }
 
   h2 {
