@@ -77,6 +77,11 @@ header {
   transition: .3s ease-in-out;
 }
 
+#logo {
+  display: none;
+  visibility: hidden;
+}
+
 #home-underline {
   margin: .5% 0;
 }
@@ -164,12 +169,23 @@ header {
   .five:hover ~ hr {
     margin-left: 79.5%!important;
   }
+
 }
 
 @media (max-width: 1100px) {
   .header-underline, #header-interest-form, #x-button {
     display: none;
     visibility: hidden;
+  }
+
+  #logo {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
   }
 
   #header-inner {
