@@ -238,6 +238,13 @@ li {
   text-align: left;
 }
 
+.image-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  padding: 2.5% 0;
+}
+
 .competitions-container {
   display: flex;
   flex-direction: row;
