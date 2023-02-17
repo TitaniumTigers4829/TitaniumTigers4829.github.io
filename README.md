@@ -1,4 +1,4 @@
-The repository for hosting the "test" version of our website
+The repository for hosting our website
 
 <img src="https://titaniumtigers4829.github.io/images/Titanium%20Tigers%20Logo.webp" alt="logo" width="300"/>
 
