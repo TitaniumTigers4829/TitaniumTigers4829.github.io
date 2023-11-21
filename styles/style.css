@@ -203,6 +203,10 @@ li {
   text-align: center;
 }
 
+.page-container h2 {
+  text-align: center;
+}
+
 .page-container .text-image-div {
   display: grid;
   grid-template-columns: 1fr .8fr;

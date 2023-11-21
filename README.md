@@ -3,7 +3,11 @@ The repository for hosting our website
 <img src="https://titaniumtigers4829.github.io/images/Titanium%20Tigers%20Logo.webp" alt="logo" width="300"/>
 
 # [TitaniumTigers4829.github.io](https://TitaniumTigers4829.github.io/)
-This is the website I made for my robotics team, [Team 4829 - Titanium Tigers](https://www.titaniumtigers4829.com/). This website was made from scratch without a template. If you want to use this code for your own website/project, go ahead! **Just make sure you credit [me](https://github.com/JacksonElia) or this [website](https://TitaniumTigers4829.github.io/) somewhere.**
+This is the website I made for my robotics team,
+[Team 4829 - Titanium Tigers](https://www.titaniumtigers4829.com/). 
+This website was made from scratch without a template.
+If you want to use this code for your own website/project, go ahead!
+**Just make sure you credit [me](https://github.com/JacksonElia) or this [website](https://TitaniumTigers4829.github.io/) somewhere.** This website is curretly maintained by members of the Titanium Tigers. 
 
 \
 ![image](https://user-images.githubusercontent.com/85963782/204837257-3f9946c4-7596-47b6-8c8f-02860def7816.png)
