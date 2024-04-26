@@ -132,7 +132,9 @@ li {
 
 .text-image-div img {
   width: 100%;
-  margin-top: 10%;
+  margin-top: 20%;
+  height: 50%;
+  margin-bottom: 10%;
 }
 
 .image-text-div img {
