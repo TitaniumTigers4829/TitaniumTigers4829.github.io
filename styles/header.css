@@ -5,6 +5,52 @@ header {
   background: var(--secondaryColor);
 }
 
+#header-interest-form {
+  width: 100%;
+  padding: .5% 25%;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  background-color: var(--themeColor);
+}
+
+#header-interest-form p {
+  margin: 0;
+  padding: 1% 0;
+  font-size: 1.3vw;
+}
+
+#header-interest-form a {
+  margin: 0;
+  font-size: 1.3vw;
+  color: var(--mainTextColor);
+  border: 1px solid var(--mainTextColor);
+  border-radius: 5px;
+  padding: .9% 1% 1%;
+  text-decoration: none;
+}
+
+#header-interest-form a:hover {
+  backdrop-filter: brightness(1.15);
+}
+
+#x-button {
+  color: var(--mainTextColor);
+  background: transparent;
+  border: none;
+  font-size: 1.3vw;
+  position: absolute;
+  top: 8%;
+  right: 1%;
+  cursor: pointer;
+  font-family: Arial, serif;
+}
+
+#x-button:hover {
+  transform: rotate(180deg);
+}
+
+
 #header-inner {
   padding: 1.8% 20% 1.5%;
 }
