@@ -427,4 +427,20 @@ li {
     margin: 5vw 0;
   }
 
+  .page-subtitle {
+    display: none;
+  }
+
+  .divider-line {
+    display: none;
+  }
+
+  .divider-line-mobile {
+    background: var(--themeColor);
+    margin: 3% 8%;
+    height: .3vw;
+    border: 0 ;
+  }
+
+
 }
