@@ -77,6 +77,14 @@ li {
   border: 0 ;
 }
 
+.page-subtitle-mobile {
+  display: none;
+}
+
+.divider-line-mobile {
+  display: none;
+}
+
 .button1 {
   font-size: 2vw;
   color: var(--mainTextColor);
