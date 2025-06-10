@@ -61,7 +61,7 @@ header {
   color: var(--mainTextColor);
   text-decoration: none;
   display: inline-block;
-  width: 19.5%;
+  width: 16.5%;
   padding: 0;
   margin: 0;
 }
@@ -72,7 +72,7 @@ header {
 
 .header-underline {
   height: .2vw;
-  width: 19.5%;
+  width: 16.5%;
   background: var(--themeColor);
   border: none;
   transition: .3s ease-in-out;
@@ -88,19 +88,23 @@ header {
 }
 
 #about-underline {
-  margin: .5% 20%;
+  margin: .5% 16%;
 }
 
 #sponsors-underline {
-  margin: .5% 40%;
+  margin: .5% 32%;
 }
 
 #robots-underline {
-  margin: .5% 60%;
+  margin: .5% 48%;
 }
 
 #competitions-underline {
-  margin: .5% 80%;
+  margin: .5% 64%;
+}
+
+#outreach-underline {
+  margin: .5% 80%
 }
 
 .one:hover ~ hr {
@@ -108,19 +112,23 @@ header {
 }
 
 .two:hover ~ hr {
-  margin-left: 20%!important;
+  margin-left: 16.5%!important;
 }
 
 .three:hover ~ hr {
-  margin-left: 40%!important;
+  margin-left: 33%!important;
 }
 
 .four:hover ~ hr {
-  margin-left: 60%!important;
+  margin-left: 49.5%!important;
 }
 
 .five:hover ~ hr {
-  margin-left: 80%!important;
+  margin-left: 66%!important;
+}
+
+.six:hover ~ hr {
+  margin-left: 82.5%!important;
 }
 
 #main-nav-toggle {
@@ -136,19 +144,23 @@ header {
   }
 
   #about-underline {
-    margin: .5% 19.5%;
+    margin: .5% 16%;
   }
 
   #sponsors-underline {
-    margin: .5% 39.5%;
+    margin: .5% 32%;
   }
 
   #robots-underline {
-    margin: .5% 59.5%;
+    margin: .5% 48%;
   }
 
   #competitions-underline {
-    margin: .5% 79.5%;
+    margin: .5% 64%;
+  }
+
+  #outreach-underline {
+    margin: .5% 80%;
   }
 
   .one:hover ~ hr {
@@ -156,19 +168,23 @@ header {
   }
 
   .two:hover ~ hr {
-    margin-left: 19.5%!important;
+    margin-left: 16.5%!important;
   }
 
   .three:hover ~ hr {
-    margin-left: 39.5%!important;
+    margin-left: 33%!important;
   }
 
   .four:hover ~ hr {
-    margin-left: 59.5%!important;
+    margin-left: 49.5%!important;
   }
 
   .five:hover ~ hr {
-    margin-left: 79.5%!important;
+    margin-left: 66%!important;
+  }
+  
+  .six:hover ~ hr {
+  margin-left: 82.5%!important;
   }
 
 }
