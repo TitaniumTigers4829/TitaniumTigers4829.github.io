@@ -57,11 +57,11 @@ header {
 
 .header-item {
   text-align: center;
-  font-size: 1.6vw;
+  font-size: 1vw;
   color: var(--mainTextColor);
   text-decoration: none;
   display: inline-block;
-  width: 15%;
+  width: 10%;
   padding: 0;
   margin: 0;
 }
