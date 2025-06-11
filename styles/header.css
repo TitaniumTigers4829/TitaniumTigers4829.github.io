@@ -7,7 +7,7 @@ header {
 
 #header-interest-form {
   width: 100%;
-  padding: .5% 25%;
+  padding: .5% 15%;
   display: flex;
   flex-direction: row;
   gap: 3%;
@@ -168,23 +168,23 @@ header {
   }
 
   .two:hover ~ hr {
-    margin-left: 16.5%!important;
+    margin-left: 16%!important;
   }
 
   .three:hover ~ hr {
-    margin-left: 33%!important;
+    margin-left: 32%!important;
   }
 
   .four:hover ~ hr {
-    margin-left: 49.5%!important;
+    margin-left: 48%!important;
   }
 
   .five:hover ~ hr {
-    margin-left: 66%!important;
+    margin-left: 64%!important;
   }
   
   .six:hover ~ hr {
-  margin-left: 82.5%!important;
+  margin-left: 80%!important;
   }
 
 }
@@ -210,7 +210,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 0px;
     padding: 6% 0%;
   }
 
@@ -264,7 +264,7 @@ header {
   }
 
   .header-item {
-    font-size: 6vw;
+    font-size: 5vw;
     width: 100%;
   }
 
