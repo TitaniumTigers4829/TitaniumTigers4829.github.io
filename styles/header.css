@@ -52,7 +52,7 @@ header {
 
 
 #header-inner {
-  padding: 1.8% 1% 1.5%;
+  padding: 1.8% 0% 1.5%;
 }
 
 .header-item {
@@ -72,7 +72,7 @@ header {
 
 .header-underline {
   height: .2vw;
-  width: 16.5%;
+  width: 16%;
   background: var(--themeColor);
   border: none;
   transition: .3s ease-in-out;
@@ -211,7 +211,7 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    padding: 6% 1%;
+    padding: 6% 0%;
   }
 
   .main-nav-button-container {
