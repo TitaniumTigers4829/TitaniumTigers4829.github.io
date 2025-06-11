@@ -61,7 +61,7 @@ header {
   color: var(--mainTextColor);
   text-decoration: none;
   display: inline-block;
-  width: 16.5%;
+  width: 15%;
   padding: 0;
   margin: 0;
 }
@@ -72,7 +72,7 @@ header {
 
 .header-underline {
   height: .2vw;
-  width: 16%;
+  width: 15%;
   background: var(--themeColor);
   border: none;
   transition: .3s ease-in-out;
@@ -112,23 +112,23 @@ header {
 }
 
 .two:hover ~ hr {
-  margin-left: 16.5%!important;
+  margin-left: 16%!important;
 }
 
 .three:hover ~ hr {
-  margin-left: 33%!important;
+  margin-left: 32%!important;
 }
 
 .four:hover ~ hr {
-  margin-left: 49.5%!important;
+  margin-left: 48%!important;
 }
 
 .five:hover ~ hr {
-  margin-left: 66%!important;
+  margin-left: 64%!important;
 }
 
 .six:hover ~ hr {
-  margin-left: 82.5%!important;
+  margin-left: 80%!important;
 }
 
 #main-nav-toggle {
