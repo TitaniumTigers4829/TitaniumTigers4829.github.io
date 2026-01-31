@@ -340,6 +340,10 @@ li {
   display: inline-block;
 }
 
+#mentor-support {
+    padding: 0 10% 5% 10%;
+}
+
 @media (max-width: 820px) {
 
   h1, h1 span {
