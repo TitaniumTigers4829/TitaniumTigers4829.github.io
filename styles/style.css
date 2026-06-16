@@ -134,7 +134,7 @@ li {
 
 #robot-container .text-image-div {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 5%;
 }
 
