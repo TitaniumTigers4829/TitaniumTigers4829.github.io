@@ -134,13 +134,13 @@ li {
 
 #robot-container .text-image-div {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  gap: 3%;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 5%;
 }
 
 .text-image-div img {
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
   margin-top: 0;
 }
 
